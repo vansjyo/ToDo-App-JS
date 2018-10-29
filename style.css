@@ -1,0 +1,53 @@
+html{
+	font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    background: #0d1521;
+} 
+
+input {
+	margin-top: 30px;
+	width: 70%;
+	height: 60px;
+    font-size: 30px;
+    border: 0;
+    margin: 0 auto;
+    padding: 10px;
+    background:#181c22;
+    color: #989898;
+}
+#todo-table{
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table input:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+input:focus {
+	outline:none;
+}
+
+li { 
+	text-align: left;
+	font-size: 30px;
+	list-style: none;
+    margin: 0;
+    color: #989898;
+}
+
+li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+    background: rgba(0,0,0,0.2);
+}
