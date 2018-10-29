@@ -9,6 +9,7 @@ function newItem() {
   li.onclick = removeItem;
 }
 
+//e refers to the event 
 document.body.onkeyup = function(e){
       if(e.keyCode == 13){
         newItem();
